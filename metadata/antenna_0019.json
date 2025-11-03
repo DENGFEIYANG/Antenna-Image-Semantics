@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0019",
+  "topology": "Ceramic GNSS WIFI Antenna",
+  "style": ["ceramic-chip", "LTCC", "multiband"],
+  "performance": {
+    "center_frequency_ghz": [1.575, 2.45],
+    "fbw_percent": [2, 4],
+    "gain_dbi": [2.8, 1.2]
+  },
+  "classes": {
+    "bands": ["L","S","C"],
+    "fbw_class": "Narrow",
+    "pattern": "Broadside",
+    "pol": "dual",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 25,
+    "height_mm": 6
+  },
+  "training_captions": [
+    "SMD ceramic antenna integrating GNSS and Wi-Fi in one body—patch region plus auxiliary metallization for the higher band; dual-pol capability with a broadside boresight, mid gain, and narrowband behavior; performance dependent on the host ground plane.",
+    "Top-metallized LTCC chip with distinct GNSS and Wi-Fi resonant sections sharing a common feed and reference; compact footprint, broadside radiation, dual polarization, narrow FBW, and gain in the mid class for embedded devices.",
+    "Ceramic chip combo antenna: GNSS L1 patch-like radiator co-located with an S-band element; tuned for SMD assembly above a ground plane; exhibits a broadside main lobe, dual polarization, moderate gain, and band-specific narrow impedance bandwidths."
+  ]
+}
+
+

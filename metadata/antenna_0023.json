@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0023",
+  "topology": "UWB PIFA",
+  "style": ["UWB", "PIFA"],
+  "performance": {
+    "center_frequency_ghz": [3.96],
+    "fbw_percent": [40],
+    "gain_dbi": [7.11]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "UltraWide",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 2.9,
+    "height_mm": 2.9
+  },
+  "training_captions": [
+    "Edge-mounted PIFA on a finite ground plane—shorting path adjacent to a 50-Ω feed and a tuned clearance window; produces linear polarization with stable omnidirectional response over a wide band.",
+    "Printed UWB PIFA featuring a top plate–to–ground short and widened current path for broadband match; linear-pol, omni radiation and mid gain suitable for embedded devices.",
+    "Mask-style UWB PIFA concept: compact radiator over ground with a controlled shorting strip; broadband impedance behavior, linear polarization, and near-omnidirectional pattern, geometrically scalable to adjacent bands."
+  ]
+}
+
+

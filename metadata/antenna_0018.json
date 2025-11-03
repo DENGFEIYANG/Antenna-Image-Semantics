@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0018",
+  "topology": "UWB Microstrip Printed Monoipole Antenna",
+  "style": ["annular-ring", "semicircular-parasitic", "partial-ground", "rectangular-slot", "microstrip-like", "band-notch"],
+  "performance": {
+    "center_frequency_ghz": [7.5],
+    "fbw_percent": [120],
+    "gain_dbi": [2.5]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 28,
+    "height_mm": 1.6
+  },
+  "training_captions": [
+    "Annular-ring printed monopole with a semicircular parasitic strip above the radiator and a partial ground with a rectangular slot; linear polarization, near-omnidirectional pattern, and ultra-wideband response with a WLAN band-notch.",
+    "Microstrip-fed annular ring on FR-4, partial ground on the back and a tuned semicircular annular strip creating a sharp stop band; linear-pol, UWB impedance with stable omni radiation outside the notch.",
+    "Compact UWB monopole: annular patch plus semicircular parasitic resonator controls the 5–6 GHz rejection while maintaining wideband match from ~3 to >10 GHz; linear polarization with near-azimuthal coverage."
+  ]
+}
+
+

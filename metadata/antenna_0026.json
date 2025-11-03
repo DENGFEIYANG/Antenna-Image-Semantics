@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0026",
+  "topology": "Double-Ridged Horn Antenna",
+  "style": ["horn", "double-ridged", "3D", "broadband", "coax-fed"],
+  "performance": {
+    "center_frequency_ghz": [5],
+    "fbw_percent": [120],
+    "gain_dbi": [12]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 90,
+    "height_mm": 55
+  },
+  "training_captions": [
+    "3D-printed double-ridged horn antenna with a coax feed at the backplate and tapered inner ridges guiding the field to a flared rectangular aperture; linear polarization, broadside main lobe, ultra-wide 2–8 GHz coverage and high gain.",
+    "Broadband ridged horn—exponential ridge pair inside a rectangular flare—metallized interior surfaces and SMA back feed; produces a directive broadside beam with linear polarization and wide fractional bandwidth across S/C bands.",
+    "Compact double-ridge horn geometry with a small ridge gap at the throat that expands toward the mouth; high-directivity broadside radiation, linear pol, and ≈120% FBW centered near 5 GHz."
+  ]
+}
+
+

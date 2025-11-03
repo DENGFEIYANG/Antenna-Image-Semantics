@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0022",
+  "topology": "Taoglas Bluetooth WLAN PIFA Antenna",
+  "style": ["patch", "PIFA", "ceramic", "SMT", "WLAN", "bluetooth"],
+  "performance": {
+    "center_frequency_ghz": [2.44],
+    "fbw_percent": [3.43],
+    "gain_dbi": [1.5]
+  },
+  "classes": {
+    "bands": ["L","S","C"],
+    "fbw_class": "Narrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 10,
+    "height_mm": 3
+  },
+  "training_captions": [
+    "LTCC ceramic PIFA chip antenna for WLAN/Bluetooth; end-pad feed and SMT mounting on a host ground plane; linear polarization, omnidirectional pattern, narrow fractional bandwidth and low realized gain, scalable across L/S/C bands.",
+    "Compact ceramic patch-PIFA with patterned metallization and an internal shorting path; requires external matching to 50 Ω and edge clearance on the PCB; provides near-omnidirectional radiation with linear polarization and narrow-band behavior.",
+    "SMD PIFA chip radiator—small ceramic body with top/side metal and two-terminal feed/ground—operating over a ground plane to yield linear polarization, low gain, and narrow FBW suitable for Bluetooth/Wi-Fi in the S band, extendable via geometric scaling."
+  ]
+}
+
+

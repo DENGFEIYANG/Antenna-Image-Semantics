@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0024",
+  "topology": "Planar Log-Periodic Dipole Array",
+  "style": ["microstrip", "triangular-outline", "edge-fed", "sma-connector", "printed-dipole-array"],
+  "performance": {
+    "center_frequency_ghz": [3.4],
+    "fbw_percent": [153],
+    "gain_dbi": [6.5]
+  },
+  "classes": {
+    "bands": ["UHF","L","S","C"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 180,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Printed log-periodic dipole array on a triangular PCB, edge-fed at the small-element end with an SMA connector; linear polarization, endfire main beam, ultra-wide fractional bandwidth and mid realized gain across UHF/L/S/C.",
+    "Microstrip LPDA with eighteen alternating strip dipoles along a central feed line; wideband impedance and directional endfire radiation toward the tip, delivering linear pol and moderate gain.",
+    "Triangular wideband PCB radiator composed of a cascaded log-periodic dipole set; edge feed and no solid ground plane, producing a linear-polarized endfire pattern with ultra-wideband response."
+  ]
+}
+
+

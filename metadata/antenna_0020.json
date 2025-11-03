@@ -1,0 +1,27 @@
+{
+  "id": "antenna_0020",
+  "topology": "Ceramic Loop Chip Antenna (GNSS)",
+  "style": ["ceramic-chip", "LTCC", "loop", "SMD", "top-metallization"],
+  "performance": {
+    "center_frequency_ghz": [1.575],
+    "fbw_percent": [2],
+    "gain_dbi": [-1]
+  },
+  "classes": {
+    "bands": ["L","S"],
+    "fbw_class": "Narrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 7,
+    "height_mm": 2
+  },
+  "training_captions": [
+    "Small ceramic loop radiator using LTCC conductors and two end pads for feed/ground; requires a host ground plane and matching network; provides linear-pol omni coverage at L band.",
+    "Monolithic chip antenna with a top metal loop pattern on a high-εr ceramic block; narrow-band L-band tuning, linear polarization, and low gain typical of embedded GNSS antennas.",
+    "SMD ceramic loop element oriented along the board edge—tuned for 1.575 GHz with external LC matching; delivers near-azimuthal coverage (omni), linear pol, and narrow FBW suitable for compact GNSS devices."
+  ]
+}
+

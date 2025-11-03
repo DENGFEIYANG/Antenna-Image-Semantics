@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0025",
+  "topology": "Antipodal Vivaldi Antenna",
+  "style": ["tapered-slot", "antipodal", "microstrip-to-slotline", "edge-fed"],
+  "performance": {
+    "center_frequency_ghz": [3.2],
+    "fbw_percent": [172],
+    "gain_dbi": [11]
+  },
+  "classes": {
+    "bands": ["UHF", "L","S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 150,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Antipodal Vivaldi tapered-slot antenna on FR-4 with microstrip-to-slotline transition and an SMA edge feed; opposed elliptical flares form a wide aperture that yields linear polarization, a directive endfire beam and ultra-wideband behavior from UHF through Ku.",
+    "Planar UWB PCB radiator featuring two mirrored tapered flares and a small circular feed region; edge-fed through a balun, producing linear-pol endfire radiation with mid realized gain over a very wide fractional bandwidth.",
+    "Wide-aperture antipodal Vivaldi layout—elliptical/exponential flare pair on opposite copper layers—providing ultra-wide impedance bandwidth and a forward endfire lobe; scalable across UHF, L, S, C, X and into Ku."
+  ]
+}
+
+
