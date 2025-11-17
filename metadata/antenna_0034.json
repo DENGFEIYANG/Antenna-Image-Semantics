@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0034",
+  "topology": "24 GHz Radar Dual 2x2 Patch Array",
+  "style": ["radar", "microstrip", "patch-array"],
+  "performance": {
+    "center_frequency_ghz": [24],
+    "fbw_percent": [0.75],
+    "gain_dbi": [11]
+  },
+  "classes": {
+    "bands": ["K","Ka","V","W"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 30,
+    "height_mm": 0.64
+  },
+  "training_captions": [
+    "Compact 24-GHz FMCW transceiver front-end: paired 2×2 patch arrays inside a 20.2 mm square aperture with pin-header I/O; linear-pol broadside radiation and a narrow radar channel bandwidth.",
+    "Planar patch-array radar antenna—TX and RX 2×2 grids at roughly half-wavelength pitch—producing a boresight beam of about 80° (az) by 34° (el), high gain, and tight K-band matching.",
+    "Square radar module on a low-loss laminate with backside cover; microstrip patches form directive broadside patterns for both transmit and receive paths, optimized for a 180-MHz FMCW sweep near 24 GHz."
+  ]
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0054",
+  "topology": "Planar Inverted-F Antenna",
+  "style": ["PIFA", "internal", "stamped-metal", "edge-mount"],
+  "performance": {
+    "center_frequency_ghz": [2.45],
+    "fbw_percent": [3.4],
+    "gain_dbi": [3.79]
+  },
+  "classes": {
+    "bands": ["S","C","X"],
+    "fbw_class": "Narrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 16.7,
+    "height_mm": 4.7
+  },
+  "training_captions": [
+    "Stamped-metal 2.4 GHz PIFA with a meandered top plate and vertical short, edge-mounted above the host ground plane; linear polarization, near-omnidirectional radiation, narrow FBW and mid realized gain.",
+    "Compact internal PIFA—folded radiator on 0.3-mm sheet with a 90° bend and a single 50-ohm feed tab—covering 2400–2485 MHz with VSWR < 1.7 and ~62% efficiency on the reference board.",
+    "Edge-mount inverted-F radiator where the overall loop length tunes the 2.45-GHz resonance; performance depends on PCB ground and matching network, yielding linear-pol omni coverage."
+  ]
+}
+
+

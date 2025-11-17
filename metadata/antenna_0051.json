@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0051",
+  "topology": "Meandered PCB Inverted-F Antenna",
+  "style": ["pcb-antenna", "meandered-inverted-F", "embedded", "ISM-2.4", "bluetooth"],
+  "performance": {
+    "center_frequency_ghz": [2.45],
+    "fbw_percent": [3.4],
+    "gain_dbi": [1.8]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "Narrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 20,
+    "height_mm": 2.4
+  },
+  "training_captions": [
+    "Shielded BLE module with a corner meandered inverted-F antenna etched on the PCB; linear polarization, near-omnidirectional pattern and narrow 2.4-GHz ISM bandwidth with low realized gain.",
+    "Embedded PCB IFA next to the RF shield can, fed through a 50-ohm pad and small matching network; performance depends on host board ground and a ~5-mm metal keep-out around the antenna edge.",
+    "Compact on-module Bluetooth antenna using a folded IFA trace to fit the 2.402–2.480 GHz band; produces linear-pol omni coverage with ~1–2 dBi peak gain on the reference layout."
+  ]
+}
+
+

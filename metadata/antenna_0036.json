@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0036",
+  "topology": "2.4 GHz PIFA",
+  "style": ["PIFA", "WIFI"],
+  "performance": {
+    "center_frequency_ghz": [2.45],
+    "fbw_percent": [3.4],
+    "gain_dbi": [0.97]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka","V"],
+    "fbw_class": "Narrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 23.4,
+    "height_mm": 6.7
+  },
+  "training_captions": [
+    "Low-profile PIFA featuring an L-shaped slot cut in the elevated plate and a side grounding strap; tuned against the host PCB ground to produce linear polarization, an omnidirectional doughnut pattern, and tight FBW.",
+    "Edge-mounted PIFA radiator with stamped top metal and cut-out slot geometry; linear-polarized omni response with modest efficiency, strongly dependent on ground-plane size and placement; scalable to C/X/Ku and higher bands by geometric resizing.",
+    "Mask-style PIFA topology—elevated plate above ground with a nearby shorting element and short feed neck—achieving compact form factor, low realized gain, and narrow impedance bandwidth suitable for embedded WLAN/Bluetooth devices."
+  ]
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0058",
+  "topology": "UWB Printed Monopole",
+  "style": ["printed-monopole", "notched-patch", "partial-ground", "microstrip", "sma-edge"],
+  "performance": {
+    "center_frequency_ghz": [6.8],
+    "fbw_percent": [120],
+    "gain_dbi": [3.2]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 24,
+    "height_mm": 1.6
+  },
+  "training_captions": [
+    "UWB printed monopole with a spanner-shaped patch fed by a 50-Ω microstrip above a truncated ground; linear polarization, near-omnidirectional pattern, and ≈120% fractional bandwidth spanning S/C/X bands.",
+    "Wrench-like notched patch radiator on FR-4 with a narrow neck and central slot, edge-fed by an SMA connector; partial ground on the backside broadens the impedance match over 3–10 GHz.",
+    "Compact mask-style UWB PCB antenna: a notched polygonal patch and short feed neck deliver linear-pol omni radiation with mid realized gain across an ultra-wide band."
+  ]
+}
+
+

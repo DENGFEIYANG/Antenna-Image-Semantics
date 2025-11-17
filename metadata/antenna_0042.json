@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0042",
+  "topology": "UWB Ceramic Chip Antenna",
+  "style": ["ceramic-chip", "LTCC", "SMD", "UWB", "linear-pol"],
+  "performance": {
+    "center_frequency_ghz": [6.5],
+    "fbw_percent": [7.7],
+    "gain_dbi": [6.5]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "Medium",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 14.3,
+    "height_mm": 2
+  },
+  "training_captions": [
+    "LTCC ceramic UWB chip antenna for channel-5 operation around 6.5 GHz; linear polarization with a near-omnidirectional pattern and mid realized peak gain.",
+    "Compact three-pad SMD package—one RF feed and two grounds—optimized for mounting at a PCB edge with a small reference ground to achieve high efficiency in the 6.24–6.74 GHz band.",
+    "Embedded UWB radiator delivering ~6.5 dBi peak gain and ~70% efficiency on the eval board; performs best with ≥3 mm clearance to nearby metal."
+  ]
+}
+
+

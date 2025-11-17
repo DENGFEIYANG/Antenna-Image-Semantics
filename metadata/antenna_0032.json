@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0032",
+  "topology": "Ka-Band 5G mmWave Phased-Array",
+  "style": ["patch-array", "phased-array", "beamforming-ic", "mmwave", "ka-band", "pcb-module"],
+  "performance": {
+    "center_frequency_ghz": [28.0, 39],
+    "fbw_percent": [10, 8],
+    "gain_dbi": [17, 17]
+  },
+  "classes": {
+    "bands": ["K","Ka","V","W"],
+    "fbw_class": "Medium",
+    "pattern": "Broadside",
+    "pol": "Dual",
+    "gain_class": "Very-High"
+  },
+  "physical": {
+    "diameter_mm": 55,
+    "height_mm": 0.254
+  },
+  "training_captions": [
+    "Ka-band mmWave phased-array module: a 3×4 microstrip patch grid on a Rogers laminate with corporate feeding and integrated beamforming ICs, offering dual polarization, broadside/directable beams and medium fractional bandwidth around 28/39 GHz.",
+    "Rectangular PCB tile featuring twelve Ka-band patch elements at roughly half-wavelength pitch; dual-pol array with solid backside ground and electronic beam steering to ±45°, delivering very-high realized gain for 5G FR2.",
+    "Compact mmWave patch-array module for 5G—dual-polarized elements in a 3 by 4 layout with corporate feed and beamform control—providing a directive broadside beam, steerable coverage and ~17 dBi tile gain across Ka."
+  ]
+}
+
+

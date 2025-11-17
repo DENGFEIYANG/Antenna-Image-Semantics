@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0050",
+  "topology": "Quad-Ridged Horn Antenna",
+  "style": ["horn", "quad-ridged", "broadband", "dual-linear", "dual-port", "aluminum"],
+  "performance": {
+    "center_frequency_ghz": [10],
+    "fbw_percent": [160],
+    "gain_dbi": [15]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Broadside",
+    "pol": "Dual",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 170,
+    "height_mm": 170
+  },
+  "training_captions": [
+    "Broadband quad-ridged horn with two orthogonal coax ports providing dual-linear polarization; aluminum flare yields a directive broadside beam and ~15 dBi gain across 2–18 GHz.",
+    "Dual-port ridged horn antenna covering S through Ku bands with ultra-wide fractional bandwidth; typical VSWR under ~2.5:1 and strong port isolation with >20 dB cross-pol discrimination.",
+    "Lightweight aluminum horn (≈185 × 170 × 170 mm) with 2×2.92 mm connectors and 50 W rating; produces a stable broadside pattern and high realized gain over decade bandwidth."
+  ]
+}
+
+

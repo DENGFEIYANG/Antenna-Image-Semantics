@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0065",
+  "topology": "UWB Printed Monopole",
+  "style": ["printed-monopole", "stepped-taper", "partial-ground", "microstrip-like", "sma-edge"],
+  "performance": {
+    "center_frequency_ghz": [5.7],
+    "fbw_percent": [131],
+    "gain_dbi": [3]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 40,
+    "height_mm": 1.6
+  },
+  "training_captions": [
+    "UWB printed monopole using a stepped-taper patch fed by a 50-ohm microstrip above a truncated ground; linear polarization, near-omnidirectional pattern, and ~131% fractional bandwidth spanning S/C/X/Ku/K/Ka.",
+    "Square PCB radiator with a multi-step taper that broadens the impedance match; partial ground on the back and a short feed neck to an edge SMA create a wide passband with mid realized gain.",
+    "Mask-style UWB patch monopole—large flared plate shaped by four discrete steps—delivering linear-pol omni radiation and deep return-loss minima near ~5.6 GHz within a 3–10 GHz band."
+  ]
+}
+
+

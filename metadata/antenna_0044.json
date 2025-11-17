@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0044",
+  "topology": "Bi-Quad with Reflector",
+  "style": ["wire", "bi-quad", "reflector-plate", "sma-bulkhead"],
+  "performance": {
+    "center_frequency_ghz": [2.45],
+    "fbw_percent": [18],
+    "gain_dbi": [10]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "Wide",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 140,
+    "height_mm": 65
+  },
+  "training_captions": [
+    "Bi-quad antenna made from two square wire loops mounted above a square metal reflector on a short standoff; linear polarization, directional broadside beam, wide fractional bandwidth and ~10 dBi gain at 2.4 GHz.",
+    "Dual-square wire radiator fed at the center junction with an SMA bulkhead through the reflector; standoff about one-eighth wavelength and square sides near a quarter wavelength to tune the S-band ISM channel.",
+    "Reflector-backed wire bi-quad on a small plate—two diamond-shaped loops in free space—producing a linear-polarized broadside main lobe, ~18% FBW, and high realized gain for Wi-Fi links."
+  ]
+}
+
+

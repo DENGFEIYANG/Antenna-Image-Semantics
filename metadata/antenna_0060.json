@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0060",
+  "topology": "Dual-Band UWB Printed Monopole",
+  "style": ["printed-monopole", "rectangular-loop", "dual-resonant", "partial-ground", "microstrip-like", "sma-edge"],
+  "performance": {
+    "center_frequency_ghz": [2.45, 5.50],
+    "fbw_percent": [4.0, 12.0],
+    "gain_dbi": [2.0, 3.5]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "Medium",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 30,
+    "height_mm": 1.6
+  },
+  "training_captions": [
+    "Dual-band printed monopole with a rectangular loop radiator and two inner parallel strips that form long and short current paths, yielding resonances at 2.4 and 5.5 GHz; linear polarization and near-omnidirectional pattern.",
+    "Microstrip-fed loop monopole on FR-4 with a rear partial ground and a narrow feed neck; the embedded twin strips set the higher-band resonance while the outer loop tunes the lower band.",
+    "Compact dual-resonant PCB antenna: rectangular loop frame plus two inner stubs for 2.4/5 GHz operation, fed by a 50-ohm microstrip over a truncated ground to maintain omni coverage."
+  ]
+}
+
+

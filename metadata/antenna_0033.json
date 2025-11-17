@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0033",
+  "topology": "24 GHz Radar Microstrip Circular Polarized Antenna",
+  "style": ["radar", "microstrip", "circular-polarized"],
+  "performance": {
+    "center_frequency_ghz": [24],
+    "fbw_percent": [1.5],
+    "gain_dbi": [8]
+  },
+  "classes": {
+    "bands": ["K","Ka","V","W"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 40,
+    "height_mm": 1
+  },
+  "training_captions": [
+  "Mask-style microstrip radar radiator—single or clustered patches with fine-tuning slots—providing linear polarization, a clean broadside response, and ultra-narrow FBW.",
+  "Low-profile antenna on ~1-mm substrate, solid backside ground and minimal feed length; linear-pol broadside radiation with mid realized gain, scalable upward to Ka/V/W bands by resizing.",
+  "Microstrip radar element optimized for stable boresight radiation and narrowband operation; linear polarization, moderate gain, and compact footprint suitable for 24-GHz class modules."
+  ]
+}
+
+
