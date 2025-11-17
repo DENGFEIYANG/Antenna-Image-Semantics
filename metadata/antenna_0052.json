@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0052",
+  "topology": "Ka-Band 16-Element Linear Phased Array",
+  "style": ["patch-array", "phased-array", "mmwave", "ka-band", "corporate-feed", "dual-edge-connector"],
+  "performance": {
+    "center_frequency_ghz": [28.0],
+    "fbw_percent": [12],
+    "gain_dbi": [19]
+  },
+  "classes": {
+    "bands": ["K","Ka","V","W"],
+    "fbw_class": "Medium",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Very-High"
+  },
+  "physical": {
+    "diameter_mm": 70,
+    "height_mm": 1
+  },
+  "training_captions": [
+    "28-GHz Ka-band phased array: a 1×16 line of microstrip patches at ~0.5-λ pitch with dual 2.4-mm edge connectors feeding corporate networks; linear polarization, broadside/scannable beam and ~19 dBi realized gain.",
+    "Slim mmWave PCB module featuring sixteen half-wavelength-spaced patch elements over a solid ground; narrow azimuth HPBW (~10°) and a broad elevation pattern set by the element.",
+    "Ka-band patch array for 5G FR2—two corporate feed trees provide phase access for ±45° electronic steering while maintaining medium FBW (~12%) and very-high array gain."
+  ]
+}
+
+
