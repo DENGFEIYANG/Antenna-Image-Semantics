@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0027",
+  "topology": "UWB Printed Monopole with T-Slotted Ground",
+  "style": ["printed-monopole", "square-patch", "partial-ground", "T-slot", "microstrip-like", "sma-edge"],
+  "performance": {
+    "center_frequency_ghz": [7.5],
+    "fbw_percent": [120],
+    "gain_dbi": [3.5]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka","V"],
+    "fbw_class": "UltraWide",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 28,
+    "height_mm": 0.5
+  },
+  "training_captions": [
+    "Thin-laminate UWB PCB antenna featuring a square monopole plate and edge SMA feed; the ground plane is truncated and T-shaped slotted to control current return, giving linear-polarized omnidirectional radiation over multiple bands.",
+    "Printed monopole topology with a square radiator and close ground clearance; T-slot ground loading enhances low- and high-end bandwidth symmetry, achieving mid gain and stable omni response from S through Ka when scaled.",
+    "Planar UWB monopole: square front patch, microstrip feed, and a rear partial ground incorporating a T-slot resonator; delivers linear polarization, ≈ultra-wide FBW, and near-omnidirectional patterns suitable for broadband sensing and links."
+  ]
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0029",
+  "topology": "Axial-Mode Helical Antenna with Reflector",
+  "style": ["helix", "axial-mode", "circularly-polarized", "ground-plane-reflector", "sma-bulkhead", "support-tube"],
+  "performance": {
+    "center_frequency_ghz": [5.8],
+    "fbw_percent": [30],
+    "gain_dbi": [12]
+  },
+  "classes": {
+    "bands": ["S","C"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Circular",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 55,
+    "height_mm": 107
+  },
+  "training_captions": [
+    "Axial-mode helical antenna on a circular ground reflector: a uniform-pitch metal helix wound on a clear support tube, fed from an SMA bulkhead at the base; circular polarization with a high-gain endfire beam and ultra-wide fractional bandwidth.",
+    "Reflector-backed single helix with about nine turns, circumference near one wavelength and a ~13° pitch angle; produces RHCP and a directive forward lobe typical of axial-mode helices around 5–6 GHz.",
+    "Compact 5.8-GHz helical radiator—constant-diameter coil above a round ground plate, wire feed through a short vertical post—delivering circular polarization, high realized gain, and broadband match."
+  ]
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0028",
+  "topology": "Cloverleaf FPV Antenna",
+  "style": ["bent-wire", "circularly-polarized", "omni", "ground-disc", "sma-bulkhead"],
+  "performance": {
+    "center_frequency_ghz": [5.5],
+    "fbw_percent": [18],
+    "gain_dbi": [1.5]
+  },
+  "classes": {
+    "bands": ["S","C","X"],
+    "fbw_class": "Wide",
+    "pattern": "Omnidirectional",
+    "pol": "Circular",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 35,
+    "height_mm": 50
+  },
+  "training_captions": [
+    "Cloverleaf-style circularly polarized omni antenna for the C band: four bent-wire petals arranged in a skew planar geometry above a small circular ground disc, fed through a vertical post from an SMA bulkhead.",
+    "Skew-planar CP radiator with four curved loops phased for right-hand circular polarization; low-profile ground disc suppresses back radiation while maintaining a near-omnidirectional doughnut pattern and wide fractional bandwidth around 5–6 GHz.",
+    "Bent-wire CP omni with a central feed post and symmetric petal loop set; RHCP operation, low realized gain, and wide matching bandwidth typical of FPV cloverleaf designs."
+  ]
+}
+
+
