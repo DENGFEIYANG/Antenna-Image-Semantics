@@ -1,5 +1,5 @@
 {
-  "id": "antenna_0052",
+  "id": "antenna_0061",
   "topology": "Ka-Band 16-Element Linear Phased Array",
   "style": ["patch-array", "phased-array", "mmwave", "ka-band", "corporate-feed", "dual-edge-connector"],
   "performance": {
